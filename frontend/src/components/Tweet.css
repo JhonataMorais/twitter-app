@@ -1,0 +1,34 @@
+.tweets-list {
+    width: 100%;
+    list-style: none;
+}
+
+.tweets-list .tweet {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.tweets-list .tweet strong {
+    font-size: 20px;
+}
+
+.tweets-list .tweet p {
+    margin: 10px 0;
+}
+
+.tweets-list .tweet button {
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    color: #666;
+    outline: none;
+    cursor: pointer;
+}
+.tweets-list .tweet button img {
+    margin-right: 5px;
+}

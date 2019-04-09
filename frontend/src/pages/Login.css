@@ -1,0 +1,44 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-direction: column;
+}
+
+.login-wrapper form input {
+    padding: 10px 20px;    
+    display: block;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+    width: 250px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.login-wrapper form input::placeholder {
+    color: #666;
+    font-size: 16px;
+}
+
+.login-wrapper form button {
+    width: 250px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2ca7e0;
+    padding: 10px 20px;    
+    transition: all 225ms ease;
+    display: block;
+    cursor: pointer;
+}
+
+.login-wrapper form button:hover {
+    background-color: #2b97ca;
+}

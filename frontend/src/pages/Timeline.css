@@ -1,0 +1,29 @@
+.timeline-wrapper {
+    width: 700px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-wrapper form {
+    padding: 30px;
+    box-sizing: border-box;
+    border: 5px;
+    background-color: #d5ecf3;
+    border: 1px solid lightblue;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.timeline-wrapper form textarea {
+    box-shadow: 0 0 5px #333;
+    padding: 10px 20px 30px 20px;
+    color: #666;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    resize: none;
+}
